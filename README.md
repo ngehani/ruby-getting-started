@@ -1,3 +1,17 @@
+# modifications by Neil Gehani
+
+Commented Ruby 2.2.3 in Gemfile
+Use FROM heroku/Ruby:2.2.3 in Dockerfile
+
+To Do:
+Try Ruby 2.3
+Try Rails 4.2.5
+Create a custom database for development and production - with it's own user and password
+
+Next:
+
+Work on dockerizing
+
 # ruby-getting-started
 
 A barebones Rails app, which can easily be deployed to Heroku.
@@ -65,4 +79,3 @@ You can also use Docker to release to Heroku:
 For more information about using Ruby on Heroku, see these Dev Center articles:
 
 - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
-
