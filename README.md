@@ -1,11 +1,11 @@
 # modifications by Neil Gehani
 
-Commented Ruby 2.2.3 in Gemfile
-Use FROM heroku/Ruby:2.2.3 in Dockerfile
+Using Ruby 2.2.4 in Gemfile
+Use FROM heroku/Ruby:2.2.4 in Dockerfile
+Use rails 4.2.5
 
 To Do:
-Try Ruby 2.3
-Try Rails 4.2.5
+
 Create a custom database for development and production - with it's own user and password
 
 Next:
